@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBBBC9E424C365F100DAC29B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBBC9E324C365F100DAC29B /* AppDelegate.swift */; };
+		DBBBC9E624C365F100DAC29B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBBC9E524C365F100DAC29B /* SceneDelegate.swift */; };
+		DBBBC9E824C365F100DAC29B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBBC9E724C365F100DAC29B /* ViewController.swift */; };
+		DBBBC9EB24C365F100DAC29B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBBBC9E924C365F100DAC29B /* Main.storyboard */; };
+		DBBBC9EE24C365F100DAC29B /* LabelScanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DBBBC9EC24C365F100DAC29B /* LabelScanner.xcdatamodeld */; };
+		DBBBC9F024C365F800DAC29B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBBBC9EF24C365F800DAC29B /* Assets.xcassets */; };
+		DBBBC9F324C365F800DAC29B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBBBC9F124C365F800DAC29B /* LaunchScreen.storyboard */; };
+		DBBBC9FE24C365F800DAC29B /* LabelScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBBC9FD24C365F800DAC29B /* LabelScannerTests.swift */; };
+		DBBBCA0924C365F800DAC29B /* LabelScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBBCA0824C365F800DAC29B /* LabelScannerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBBBC9FA24C365F800DAC29B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBBBC9D824C365F100DAC29B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBBBC9DF24C365F100DAC29B;
+			remoteInfo = LabelScanner;
+		};
+		DBBBCA0524C365F800DAC29B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBBBC9D824C365F100DAC29B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBBBC9DF24C365F100DAC29B;
+			remoteInfo = LabelScanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBBBC9E024C365F100DAC29B /* LabelScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LabelScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBBBC9E324C365F100DAC29B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBBBC9E524C365F100DAC29B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DBBBC9E724C365F100DAC29B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBBBC9EA24C365F100DAC29B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBBBC9ED24C365F100DAC29B /* LabelScanner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LabelScanner.xcdatamodel; sourceTree = "<group>"; };
+		DBBBC9EF24C365F800DAC29B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBBBC9F224C365F800DAC29B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBBBC9F424C365F800DAC29B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBBBC9F924C365F800DAC29B /* LabelScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabelScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBBBC9FD24C365F800DAC29B /* LabelScannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelScannerTests.swift; sourceTree = "<group>"; };
+		DBBBC9FF24C365F800DAC29B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBBBCA0424C365F800DAC29B /* LabelScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabelScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBBBCA0824C365F800DAC29B /* LabelScannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelScannerUITests.swift; sourceTree = "<group>"; };
+		DBBBCA0A24C365F800DAC29B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBBBC9DD24C365F100DAC29B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBBC9F624C365F800DAC29B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBBCA0124C365F800DAC29B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBBBC9D724C365F100DAC29B = {
+			isa = PBXGroup;
+			children = (
+				DBBBC9E224C365F100DAC29B /* LabelScanner */,
+				DBBBC9FC24C365F800DAC29B /* LabelScannerTests */,
+				DBBBCA0724C365F800DAC29B /* LabelScannerUITests */,
+				DBBBC9E124C365F100DAC29B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBBBC9E124C365F100DAC29B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBBBC9E024C365F100DAC29B /* LabelScanner.app */,
+				DBBBC9F924C365F800DAC29B /* LabelScannerTests.xctest */,
+				DBBBCA0424C365F800DAC29B /* LabelScannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBBBC9E224C365F100DAC29B /* LabelScanner */ = {
+			isa = PBXGroup;
+			children = (
+				DBBBC9E324C365F100DAC29B /* AppDelegate.swift */,
+				DBBBC9E524C365F100DAC29B /* SceneDelegate.swift */,
+				DBBBC9E724C365F100DAC29B /* ViewController.swift */,
+				DBBBC9E924C365F100DAC29B /* Main.storyboard */,
+				DBBBC9EF24C365F800DAC29B /* Assets.xcassets */,
+				DBBBC9F124C365F800DAC29B /* LaunchScreen.storyboard */,
+				DBBBC9F424C365F800DAC29B /* Info.plist */,
+				DBBBC9EC24C365F100DAC29B /* LabelScanner.xcdatamodeld */,
+			);
+			path = LabelScanner;
+			sourceTree = "<group>";
+		};
+		DBBBC9FC24C365F800DAC29B /* LabelScannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBBBC9FD24C365F800DAC29B /* LabelScannerTests.swift */,
+				DBBBC9FF24C365F800DAC29B /* Info.plist */,
+			);
+			path = LabelScannerTests;
+			sourceTree = "<group>";
+		};
+		DBBBCA0724C365F800DAC29B /* LabelScannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBBBCA0824C365F800DAC29B /* LabelScannerUITests.swift */,
+				DBBBCA0A24C365F800DAC29B /* Info.plist */,
+			);
+			path = LabelScannerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBBBC9DF24C365F100DAC29B /* LabelScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBBBCA0D24C365F800DAC29B /* Build configuration list for PBXNativeTarget "LabelScanner" */;
+			buildPhases = (
+				DBBBC9DC24C365F100DAC29B /* Sources */,
+				DBBBC9DD24C365F100DAC29B /* Frameworks */,
+				DBBBC9DE24C365F100DAC29B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LabelScanner;
+			productName = LabelScanner;
+			productReference = DBBBC9E024C365F100DAC29B /* LabelScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBBBC9F824C365F800DAC29B /* LabelScannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBBBCA1024C365F800DAC29B /* Build configuration list for PBXNativeTarget "LabelScannerTests" */;
+			buildPhases = (
+				DBBBC9F524C365F800DAC29B /* Sources */,
+				DBBBC9F624C365F800DAC29B /* Frameworks */,
+				DBBBC9F724C365F800DAC29B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBBBC9FB24C365F800DAC29B /* PBXTargetDependency */,
+			);
+			name = LabelScannerTests;
+			productName = LabelScannerTests;
+			productReference = DBBBC9F924C365F800DAC29B /* LabelScannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBBBCA0324C365F800DAC29B /* LabelScannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBBBCA1324C365F800DAC29B /* Build configuration list for PBXNativeTarget "LabelScannerUITests" */;
+			buildPhases = (
+				DBBBCA0024C365F800DAC29B /* Sources */,
+				DBBBCA0124C365F800DAC29B /* Frameworks */,
+				DBBBCA0224C365F800DAC29B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBBBCA0624C365F800DAC29B /* PBXTargetDependency */,
+			);
+			name = LabelScannerUITests;
+			productName = LabelScannerUITests;
+			productReference = DBBBCA0424C365F800DAC29B /* LabelScannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBBBC9D824C365F100DAC29B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Grace Ohlsen";
+				TargetAttributes = {
+					DBBBC9DF24C365F100DAC29B = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					DBBBC9F824C365F800DAC29B = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = DBBBC9DF24C365F100DAC29B;
+					};
+					DBBBCA0324C365F800DAC29B = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = DBBBC9DF24C365F100DAC29B;
+					};
+				};
+			};
+			buildConfigurationList = DBBBC9DB24C365F100DAC29B /* Build configuration list for PBXProject "LabelScanner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBBBC9D724C365F100DAC29B;
+			productRefGroup = DBBBC9E124C365F100DAC29B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBBBC9DF24C365F100DAC29B /* LabelScanner */,
+				DBBBC9F824C365F800DAC29B /* LabelScannerTests */,
+				DBBBCA0324C365F800DAC29B /* LabelScannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBBBC9DE24C365F100DAC29B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBBBC9F324C365F800DAC29B /* LaunchScreen.storyboard in Resources */,
+				DBBBC9F024C365F800DAC29B /* Assets.xcassets in Resources */,
+				DBBBC9EB24C365F100DAC29B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBBC9F724C365F800DAC29B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBBCA0224C365F800DAC29B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBBBC9DC24C365F100DAC29B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBBBC9E824C365F100DAC29B /* ViewController.swift in Sources */,
+				DBBBC9E424C365F100DAC29B /* AppDelegate.swift in Sources */,
+				DBBBC9E624C365F100DAC29B /* SceneDelegate.swift in Sources */,
+				DBBBC9EE24C365F100DAC29B /* LabelScanner.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBBC9F524C365F800DAC29B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBBBC9FE24C365F800DAC29B /* LabelScannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBBCA0024C365F800DAC29B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBBBCA0924C365F800DAC29B /* LabelScannerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBBBC9FB24C365F800DAC29B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBBBC9DF24C365F100DAC29B /* LabelScanner */;
+			targetProxy = DBBBC9FA24C365F800DAC29B /* PBXContainerItemProxy */;
+		};
+		DBBBCA0624C365F800DAC29B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBBBC9DF24C365F100DAC29B /* LabelScanner */;
+			targetProxy = DBBBCA0524C365F800DAC29B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBBBC9E924C365F100DAC29B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBBBC9EA24C365F100DAC29B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBBBC9F124C365F800DAC29B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBBBC9F224C365F800DAC29B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBBBCA0B24C365F800DAC29B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBBBCA0C24C365F800DAC29B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBBBCA0E24C365F800DAC29B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5M35AL82A;
+				INFOPLIST_FILE = LabelScanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK-Scholar.LabelScanner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBBBCA0F24C365F800DAC29B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5M35AL82A;
+				INFOPLIST_FILE = LabelScanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK-Scholar.LabelScanner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DBBBCA1124C365F800DAC29B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5M35AL82A;
+				INFOPLIST_FILE = LabelScannerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK-Scholar.LabelScannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LabelScanner.app/LabelScanner";
+			};
+			name = Debug;
+		};
+		DBBBCA1224C365F800DAC29B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5M35AL82A;
+				INFOPLIST_FILE = LabelScannerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK-Scholar.LabelScannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LabelScanner.app/LabelScanner";
+			};
+			name = Release;
+		};
+		DBBBCA1424C365F800DAC29B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5M35AL82A;
+				INFOPLIST_FILE = LabelScannerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK-Scholar.LabelScannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LabelScanner;
+			};
+			name = Debug;
+		};
+		DBBBCA1524C365F800DAC29B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5M35AL82A;
+				INFOPLIST_FILE = LabelScannerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK-Scholar.LabelScannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LabelScanner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBBBC9DB24C365F100DAC29B /* Build configuration list for PBXProject "LabelScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBBBCA0B24C365F800DAC29B /* Debug */,
+				DBBBCA0C24C365F800DAC29B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBBBCA0D24C365F800DAC29B /* Build configuration list for PBXNativeTarget "LabelScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBBBCA0E24C365F800DAC29B /* Debug */,
+				DBBBCA0F24C365F800DAC29B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBBBCA1024C365F800DAC29B /* Build configuration list for PBXNativeTarget "LabelScannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBBBCA1124C365F800DAC29B /* Debug */,
+				DBBBCA1224C365F800DAC29B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBBBCA1324C365F800DAC29B /* Build configuration list for PBXNativeTarget "LabelScannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBBBCA1424C365F800DAC29B /* Debug */,
+				DBBBCA1524C365F800DAC29B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DBBBC9EC24C365F100DAC29B /* LabelScanner.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DBBBC9ED24C365F100DAC29B /* LabelScanner.xcdatamodel */,
+			);
+			currentVersion = DBBBC9ED24C365F100DAC29B /* LabelScanner.xcdatamodel */;
+			path = LabelScanner.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DBBBC9D824C365F100DAC29B /* Project object */;
+}

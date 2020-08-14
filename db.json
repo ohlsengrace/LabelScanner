@@ -1,27 +1,4 @@
 {
-    "FreshCucumberScan" : [
-        {
-            "name" : "Cucmber",
-            "size" : "1 each",
-            "days left" : 5
-        }
-    ],
-    
-    "IffyCucumberScan" : [
-        {
-            "name" : "Cucumber",
-            "size" : "1 each",
-            "days left" : 1
-        }
-    ]
-    
-    "SpoiledCucumberScan" : [
-        {
-            "name" : "Cucumber",
-            "size" : "1 each",
-            "days left" : 0
-        }
-    ],
     
     "FreshSalsa" : [
         {

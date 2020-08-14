@@ -7,8 +7,6 @@
             "days left" : 2
         }
     ],
-    
-    
     "IffySalsa" : [
            {
                "name" : "Mateo's Gourmet Salsa",
@@ -16,7 +14,6 @@
                "days left" : 1
            }
        ],
-    
     "SpoiledSalsa" : [
            {
                "name" : "Mateo's Gourmet Salsa",
@@ -24,7 +21,4 @@
                "days left" : 0
            }
        ]
-    
-    
-    
 }

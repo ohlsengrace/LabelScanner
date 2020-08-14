@@ -1,9 +1,53 @@
 {
-    "CucumberScan" : [
+    "FreshCucumberScan" : [
         {
             "name" : "Cucmber",
             "size" : "1 each",
             "days left" : 5
         }
+    ],
+    
+    "IffyCucumberScan" : [
+        {
+            "name" : "Cucumber",
+            "size" : "1 each",
+            "days left" : 1
+        }
     ]
+    
+    "SpoiledCucumberScan" : [
+        {
+            "name" : "Cucumber",
+            "size" : "1 each",
+            "days left" : 0
+        }
+    ],
+    
+    "FreshSalsa" : [
+        {
+            "name" : "Mateo's Gourmet Salsa",
+            "size" : "Net Wt 32 oz. (907 g)",
+            "days left" : 2
+        }
+    ],
+    
+    
+    "IffySalsa" : [
+           {
+               "name" : "Mateo's Gourmet Salsa",
+               "size" : "Net Wt 32 oz. (907 g)",
+               "days left" : 1
+           }
+       ],
+    
+    "SpoiledSalsa" : [
+           {
+               "name" : "Mateo's Gourmet Salsa",
+               "size" : "Net Wt 32 oz. (907 g)",
+               "days left" : 0
+           }
+       ]
+    
+    
+    
 }

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DB1D7D2624E47348001C32C5 /* RemoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1D7D2524E47348001C32C5 /* RemoveViewController.swift */; };
+		DB38A00424E62925008D0027 /* db.json in Resources */ = {isa = PBXBuildFile; fileRef = DB38A00324E62925008D0027 /* db.json */; };
 		DB509D2424E1BF4E00F2573F /* ScannedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB509D2324E1BF4E00F2573F /* ScannedItem.swift */; };
 		DBBBC9E424C365F100DAC29B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBBC9E324C365F100DAC29B /* AppDelegate.swift */; };
 		DBBBC9E624C365F100DAC29B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBBC9E524C365F100DAC29B /* SceneDelegate.swift */; };
@@ -44,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		DB1D7D2524E47348001C32C5 /* RemoveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveViewController.swift; sourceTree = "<group>"; };
+		DB38A00324E62925008D0027 /* db.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = db.json; sourceTree = "<group>"; };
 		DB509D2324E1BF4E00F2573F /* ScannedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannedItem.swift; sourceTree = "<group>"; };
 		DBBBC9E024C365F100DAC29B /* Oli-Tec Scanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Oli-Tec Scanner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBBBC9E324C365F100DAC29B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				DBBBC9F424C365F800DAC29B /* Info.plist */,
 				DBBBC9EC24C365F100DAC29B /* LabelScanner.xcdatamodeld */,
 				DBDF549224C5D87A00CEFA06 /* Color Palette.swift */,
+				DB38A00324E62925008D0027 /* db.json */,
 				DBBBC9EF24C365F800DAC29B /* Assets.xcassets */,
 			);
 			path = LabelScanner;
@@ -256,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB38A00424E62925008D0027 /* db.json in Resources */,
 				DBBBC9F324C365F800DAC29B /* LaunchScreen.storyboard in Resources */,
 				DBBBC9F024C365F800DAC29B /* Assets.xcassets in Resources */,
 				DBBBC9EB24C365F100DAC29B /* Main.storyboard in Resources */,

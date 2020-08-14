@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB1D7D2624E47348001C32C5 /* RemoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1D7D2524E47348001C32C5 /* RemoveViewController.swift */; };
+		DB509D2424E1BF4E00F2573F /* ScannedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB509D2324E1BF4E00F2573F /* ScannedItem.swift */; };
 		DBBBC9E424C365F100DAC29B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBBC9E324C365F100DAC29B /* AppDelegate.swift */; };
 		DBBBC9E624C365F100DAC29B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBBC9E524C365F100DAC29B /* SceneDelegate.swift */; };
-		DBBBC9E824C365F100DAC29B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBBC9E724C365F100DAC29B /* ViewController.swift */; };
 		DBBBC9EB24C365F100DAC29B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBBBC9E924C365F100DAC29B /* Main.storyboard */; };
 		DBBBC9EE24C365F100DAC29B /* LabelScanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DBBBC9EC24C365F100DAC29B /* LabelScanner.xcdatamodeld */; };
 		DBBBC9F024C365F800DAC29B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBBBC9EF24C365F800DAC29B /* Assets.xcassets */; };
 		DBBBC9F324C365F800DAC29B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBBBC9F124C365F800DAC29B /* LaunchScreen.storyboard */; };
 		DBBBC9FE24C365F800DAC29B /* LabelScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBBC9FD24C365F800DAC29B /* LabelScannerTests.swift */; };
 		DBBBCA0924C365F800DAC29B /* LabelScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBBCA0824C365F800DAC29B /* LabelScannerUITests.swift */; };
+		DBBBCA1724C366B400DAC29B /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBBCA1624C366B400DAC29B /* ScannerViewController.swift */; };
+		DBBBCA1924C3687D00DAC29B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBBCA1824C3687D00DAC29B /* MainViewController.swift */; };
+		DBDF549324C5D87A00CEFA06 /* Color Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDF549224C5D87A00CEFA06 /* Color Palette.swift */; };
+		DBDF549524C66F9000CEFA06 /* GetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDF549424C66F9000CEFA06 /* GetViewController.swift */; };
+		DBDF549724C6716B00CEFA06 /* FreshItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDF549624C6716B00CEFA06 /* FreshItemViewController.swift */; };
+		DBDF549924C6745800CEFA06 /* SpoiledViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDF549824C6745800CEFA06 /* SpoiledViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DBBBC9E024C365F100DAC29B /* LabelScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LabelScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1D7D2524E47348001C32C5 /* RemoveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveViewController.swift; sourceTree = "<group>"; };
+		DB509D2324E1BF4E00F2573F /* ScannedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannedItem.swift; sourceTree = "<group>"; };
+		DBBBC9E024C365F100DAC29B /* Oli-Tec Scanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Oli-Tec Scanner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBBBC9E324C365F100DAC29B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBBBC9E524C365F100DAC29B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DBBBC9E724C365F100DAC29B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DBBBC9EA24C365F100DAC29B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DBBBC9ED24C365F100DAC29B /* LabelScanner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LabelScanner.xcdatamodel; sourceTree = "<group>"; };
 		DBBBC9EF24C365F800DAC29B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +59,12 @@
 		DBBBCA0424C365F800DAC29B /* LabelScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabelScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBBBCA0824C365F800DAC29B /* LabelScannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelScannerUITests.swift; sourceTree = "<group>"; };
 		DBBBCA0A24C365F800DAC29B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBBBCA1624C366B400DAC29B /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		DBBBCA1824C3687D00DAC29B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		DBDF549224C5D87A00CEFA06 /* Color Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color Palette.swift"; sourceTree = "<group>"; };
+		DBDF549424C66F9000CEFA06 /* GetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetViewController.swift; sourceTree = "<group>"; };
+		DBDF549624C6716B00CEFA06 /* FreshItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreshItemViewController.swift; sourceTree = "<group>"; };
+		DBDF549824C6745800CEFA06 /* SpoiledViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpoiledViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +105,7 @@
 		DBBBC9E124C365F100DAC29B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DBBBC9E024C365F100DAC29B /* LabelScanner.app */,
+				DBBBC9E024C365F100DAC29B /* Oli-Tec Scanner.app */,
 				DBBBC9F924C365F800DAC29B /* LabelScannerTests.xctest */,
 				DBBBCA0424C365F800DAC29B /* LabelScannerUITests.xctest */,
 			);
@@ -101,14 +115,21 @@
 		DBBBC9E224C365F100DAC29B /* LabelScanner */ = {
 			isa = PBXGroup;
 			children = (
-				DBBBC9E324C365F100DAC29B /* AppDelegate.swift */,
-				DBBBC9E524C365F100DAC29B /* SceneDelegate.swift */,
-				DBBBC9E724C365F100DAC29B /* ViewController.swift */,
 				DBBBC9E924C365F100DAC29B /* Main.storyboard */,
-				DBBBC9EF24C365F800DAC29B /* Assets.xcassets */,
+				DB1D7D2524E47348001C32C5 /* RemoveViewController.swift */,
 				DBBBC9F124C365F800DAC29B /* LaunchScreen.storyboard */,
+				DBBBCA1824C3687D00DAC29B /* MainViewController.swift */,
+				DBBBCA1624C366B400DAC29B /* ScannerViewController.swift */,
+				DBDF549424C66F9000CEFA06 /* GetViewController.swift */,
+				DBDF549624C6716B00CEFA06 /* FreshItemViewController.swift */,
+				DBDF549824C6745800CEFA06 /* SpoiledViewController.swift */,
+				DBBBC9E324C365F100DAC29B /* AppDelegate.swift */,
+				DB509D2324E1BF4E00F2573F /* ScannedItem.swift */,
+				DBBBC9E524C365F100DAC29B /* SceneDelegate.swift */,
 				DBBBC9F424C365F800DAC29B /* Info.plist */,
 				DBBBC9EC24C365F100DAC29B /* LabelScanner.xcdatamodeld */,
+				DBDF549224C5D87A00CEFA06 /* Color Palette.swift */,
+				DBBBC9EF24C365F800DAC29B /* Assets.xcassets */,
 			);
 			path = LabelScanner;
 			sourceTree = "<group>";
@@ -148,7 +169,7 @@
 			);
 			name = LabelScanner;
 			productName = LabelScanner;
-			productReference = DBBBC9E024C365F100DAC29B /* LabelScanner.app */;
+			productReference = DBBBC9E024C365F100DAC29B /* Oli-Tec Scanner.app */;
 			productType = "com.apple.product-type.application";
 		};
 		DBBBC9F824C365F800DAC29B /* LabelScannerTests */ = {
@@ -262,10 +283,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBBBC9E824C365F100DAC29B /* ViewController.swift in Sources */,
 				DBBBC9E424C365F100DAC29B /* AppDelegate.swift in Sources */,
 				DBBBC9E624C365F100DAC29B /* SceneDelegate.swift in Sources */,
+				DBDF549324C5D87A00CEFA06 /* Color Palette.swift in Sources */,
+				DB1D7D2624E47348001C32C5 /* RemoveViewController.swift in Sources */,
+				DBDF549924C6745800CEFA06 /* SpoiledViewController.swift in Sources */,
+				DBDF549524C66F9000CEFA06 /* GetViewController.swift in Sources */,
 				DBBBC9EE24C365F100DAC29B /* LabelScanner.xcdatamodeld in Sources */,
+				DBBBCA1724C366B400DAC29B /* ScannerViewController.swift in Sources */,
+				DBDF549724C6716B00CEFA06 /* FreshItemViewController.swift in Sources */,
+				DB509D2424E1BF4E00F2573F /* ScannedItem.swift in Sources */,
+				DBBBCA1924C3687D00DAC29B /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,7 +474,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "KWK-Scholar.LabelScanner";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Oli-Tec Scanner";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -464,7 +492,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "KWK-Scholar.LabelScanner";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Oli-Tec Scanner";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

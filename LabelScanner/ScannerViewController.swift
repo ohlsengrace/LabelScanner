@@ -100,11 +100,11 @@ class ScannerViewController: UIViewController, AVCaptureMetadataOutputObjectsDel
     }
 
     func found(code: String) {
-        print(code)
+        
         
         updateLink(code: code)
         
-        print(scanLink)
+        
         
         performSegue(withIdentifier: "goToGetViewController", sender: nil)
         // prints website link

@@ -1,24 +1,18 @@
-{
-    
-    "FreshSalsa" : [
-        {
-            "name" : "Mateo's Gourmet Salsa",
-            "size" : "Net Wt 32 oz. (907 g)",
-            "days left" : 2
-        }
-    ],
-    "IffySalsa" : [
-           {
-               "name" : "Mateo's Gourmet Salsa",
-               "size" : "Net Wt 32 oz. (907 g)",
-               "days left" : 1
-           }
-       ],
-    "SpoiledSalsa" : [
-           {
-               "name" : "Mateo's Gourmet Salsa",
-               "size" : "Net Wt 32 oz. (907 g)",
-               "days left" : 0
-           }
-       ]
-}
+[
+    {
+        "name" : "Mateo's Gourmet Salsa",
+        "size" : "Net Wt 32 oz. (907 g)",
+        "numDaysLeft" : 2
+    },
+    {
+        "name" : "Mateo's Gourmet Salsa",
+        "size" : "Net Wt 32 oz. (907 g)",
+        "numDaysLeft" : 1
+    },
+    {
+        "name" : "Mateo's Gourmet Salsa",
+        "size" : "Net Wt 32 oz. (907 g)",
+        "numDaysLeft" : 0
+    }
+ ]
+ 

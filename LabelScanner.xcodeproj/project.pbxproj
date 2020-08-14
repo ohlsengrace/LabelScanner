@@ -97,6 +97,7 @@
 		DBBBC9D724C365F100DAC29B = {
 			isa = PBXGroup;
 			children = (
+				DB38A00324E62925008D0027 /* db.json */,
 				DBBBC9E224C365F100DAC29B /* LabelScanner */,
 				DBBBC9FC24C365F800DAC29B /* LabelScannerTests */,
 				DBBBCA0724C365F800DAC29B /* LabelScannerUITests */,
@@ -131,7 +132,6 @@
 				DBBBC9F424C365F800DAC29B /* Info.plist */,
 				DBBBC9EC24C365F100DAC29B /* LabelScanner.xcdatamodeld */,
 				DBDF549224C5D87A00CEFA06 /* Color Palette.swift */,
-				DB38A00324E62925008D0027 /* db.json */,
 				DBBBC9EF24C365F800DAC29B /* Assets.xcassets */,
 			);
 			path = LabelScanner;

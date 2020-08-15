@@ -3,18 +3,5 @@
             "name": "Mateo's Gourmet Salsa",
             "size": "Net Wt 32 oz. (907 g)",
             "numDaysLeft": 2
-        },
-    
-    "MehSalsa": {
-        "name": "Mateo's Gourmet Salsa",
-        "size": "Net Wt 32 oz. (907 g)",
-        "numDaysLeft": 1
-    },
-    
-    "SpoiledSalsa": {
-        "name": "Mateo's Gourmet Salsa",
-        "size": "Net Wt 32 oz. (907 g)",
-        "numDaysLeft": 0
-    }
-        
+        }
 }

@@ -9,17 +9,19 @@
 import UIKit
 
 class GetViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         print(scanLink)
         
-        fetchProductData { (products) in
+        fetchProductData { (product) in
             
-            for product in products{
-                print(product.name!)
-            }
+            
+            print(product.name!)
+            print(product.size!)
+            print(product.numDaysLeft!)
+            
             
         }
         
@@ -33,7 +35,7 @@ class GetViewController: UIViewController {
     
     // completionHandler allows for delay to fetch data instead of immediately returning nil if data not fetched quickly
     
-    func fetchProductData(completionHandler: @escaping ([Product]) -> Void){
+    func fetchProductData(completionHandler: @escaping (Product) -> Void){
         
         
         let url = URL(string: getLink())!
@@ -43,9 +45,9 @@ class GetViewController: UIViewController {
             guard let data = data else { return }
             
             do{
-                let productsData = try JSONDecoder().decode(([Product].self), from: data)
+                let productData = try JSONDecoder().decode((Product.self), from: data)
                 
-                completionHandler(productsData)
+                completionHandler(productData)
                 
             }
             catch{
@@ -62,15 +64,15 @@ class GetViewController: UIViewController {
     }
     
     
-
+    
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destination.
+     // Pass the selected object to the new view controller.
+     }
+     */
+    
 }

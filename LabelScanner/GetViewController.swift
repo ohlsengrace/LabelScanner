@@ -17,26 +17,17 @@ class GetViewController: UIViewController {
         
         fetchProductData { (product) in
             
-            
-            self.setScanName(name: product.name!)
-            self.setScanSize(size: product.size!)
-            self.setScanNumDaysLeft (days: product.numDaysLeft!)
-            
+            product.name!
+            product.size!
+            product.numDaysLeft!
             
         }
         
-        print(scanName)
-        
-        // Do any additional setup after loading the view.
     }
     
-    let svc = ScannerViewController()
     
     var scanLink: String = ""
     
-    var scanName = ""
-    var scanSize = ""
-    var scanNumDaysLeft = 0
     
     
     // completionHandler allows for delay to fetch data instead of immediately returning nil if data not fetched quickly
@@ -67,30 +58,6 @@ class GetViewController: UIViewController {
     
     func getLink() -> String {
         return scanLink
-    }
-    
-    func getName() -> String{
-        return scanName
-    }
-    
-    func setScanName(name : String){
-        scanName = name
-    }
-    
-    func getSize() -> String{
-        return scanSize
-    }
-    
-    func setScanSize(size : String) {
-        scanSize = size
-    }
-    
-    func getNumDaysLeft() -> Int{
-        return scanNumDaysLeft
-    }
-    
-    func setScanNumDaysLeft(days : Int) {
-        scanNumDaysLeft = days
     }
     
     /*

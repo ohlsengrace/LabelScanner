@@ -54,6 +54,11 @@
                         <viewLayoutGuide key="safeArea" id="ltx-je-w8w"/>
                     </view>
                     <navigationItem key="navigationItem" id="STb-W2-c5i"/>
+                    <connections>
+                        <segue destination="QWg-vE-lMB" kind="show" identifier="goToFreshItemViewController" id="Af8-dm-0ia"/>
+                        <segue destination="idA-Fv-6lL" kind="show" identifier="goToOrangeViewController" id="4z6-7Q-AlV"/>
+                        <segue destination="vyI-pB-sqc" kind="show" identifier="goToSpoiledViewController" id="pGw-X5-vs6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oM6-wq-OQ5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -520,8 +525,11 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Qhu-7e-40x"/>
-        <segue reference="IQA-79-f4H"/>
+        <segue reference="Af8-dm-0ia"/>
+        <segue reference="JR9-9m-CeB"/>
+        <segue reference="4z6-7Q-AlV"/>
+        <segue reference="pGw-X5-vs6"/>
+        <segue reference="ZA9-6G-gid"/>
         <segue reference="4kK-dc-Oti"/>
     </inferredMetricsTieBreakers>
     <resources>

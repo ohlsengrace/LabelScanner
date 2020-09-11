@@ -99,12 +99,15 @@ class ScannerViewController: UIViewController, AVCaptureMetadataOutputObjectsDel
         dismiss(animated: true)
     }
 
+    // The QR Code is recognized and this is what happens when the txt file is found
+    
     func found(code: String) {
         
+        // updates scanLink string
         
         updateLink(code: code)
         
-        
+        // goes to getViewController where the link will be accesses and data will be collected
         
         performSegue(withIdentifier: "goToGetViewController", sender: nil)
         // prints website link
@@ -122,6 +125,8 @@ class ScannerViewController: UIViewController, AVCaptureMetadataOutputObjectsDel
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
         return .portrait
     }
+    
+    // transfers scanLink to getViewController
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "goToGetViewController" {

@@ -15,16 +15,19 @@ class GetViewController: UIViewController {
         
         print(scanLink)
         
+        // where issues occur!!
+        
         fetchProductData { (product) in
             
-            product.name!
-            product.size!
-            product.numDaysLeft!
+            print(product.name!)
+            print(product.size!)
+            print(product.numDaysLeft!)
             
         }
         
     }
     
+    // scanLink is "" until ScannerViewController passes a link from the QR Code
     
     var scanLink: String = ""
     
@@ -34,6 +37,8 @@ class GetViewController: UIViewController {
     
     func fetchProductData(completionHandler: @escaping (Product) -> Void){
         
+        
+        // gets 
         
         let url = URL(string: getLink())!
         

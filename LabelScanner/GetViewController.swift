@@ -19,18 +19,19 @@ class GetViewController: UIViewController {
         
         fetchProductData { (product) in
             
-            print(product.name!)
-            print(product.size!)
-            print(product.numDaysLeft!)
+            let identifier = self.chooseIdentifier(product: product)
+            
+            
+            self.performSegue(withIdentifier: identifier, sender: nil)
             
         }
+        
         
     }
     
     // scanLink is "" until ScannerViewController passes a link from the QR Code
     
     var scanLink: String = ""
-    
     
     
     // completionHandler allows for delay to fetch data instead of immediately returning nil if data not fetched quickly
@@ -44,8 +45,10 @@ class GetViewController: UIViewController {
         
         let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
             
-            guard let data = data else { return }
             
+            if let data = data {
+                DispatchQueue.main.async {
+                
             do{
                 let productData = try JSONDecoder().decode((Product.self), from: data)
                 
@@ -56,7 +59,8 @@ class GetViewController: UIViewController {
                 let error = error
                 print(error.localizedDescription)
             }
-            
+                }
+        }
         }.resume()
     }
     
@@ -65,14 +69,49 @@ class GetViewController: UIViewController {
         return scanLink
     }
     
-    /*
-     // MARK: - Navigation
-     
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-     // Get the new view controller using segue.destination.
-     // Pass the selected object to the new view controller.
-     }
-     */
+    func chooseIdentifier(product: Product) -> String{
+        
+        var identifier = ""
+
+        
+        if(product.numDaysLeft >= 2){
+                
+            identifier = "goToFreshItemViewController"
+            
+        } else if(product.numDaysLeft == 1){
+            
+            identifier = "goToOrangeViewController"
+   
+        } else if(product.numDaysLeft == 0){
+    
+            identifier = "goToSpoiledViewController"
+            
+        }
+        
+        return identifier
+    }
+ 
+    
+//     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//         if segue.identifier == "goToFreshItemViewController" {
+//             let vc = segue.destination as? FreshItemViewController
+//
+//            vc?.freshness = "Good to go"
+//
+//         } else if segue.identifier == "goToOrangeViewController"{
+//            let vc = segue.destination as? OrangeViewController
+//
+//            vc?.freshness = "Meh. Last day"
+//
+//         } else if segue.identifier == "goToSpoiledViewController"{
+//            let vc = segue.destination as? SpoiledViewController
+//
+//            vc?.freshness = "Time to hit the road."
+//
+//        }
+//
+//     }
+    
+    
     
 }

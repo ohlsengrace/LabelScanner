@@ -118,10 +118,10 @@
             </objects>
             <point key="canvasLocation" x="1014" y="106"/>
         </scene>
-        <!--View Controller-->
+        <!--Spoiled View Controller-->
         <scene sceneID="MCd-5R-HC7">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="vyI-pB-sqc" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="vyI-pB-sqc" customClass="SpoiledViewController" customModule="Oli_Tec_Scanner" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zOM-7q-ixD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -197,10 +197,10 @@
             </objects>
             <point key="canvasLocation" x="3333" y="106"/>
         </scene>
-        <!--View Controller-->
+        <!--Orange View Controller-->
         <scene sceneID="opI-QX-qTd">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="idA-Fv-6lL" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="idA-Fv-6lL" customClass="OrangeViewController" customModule="Oli_Tec_Scanner" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BiQ-Gi-VNl">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -424,10 +424,10 @@
             </objects>
             <point key="canvasLocation" x="2973.913043478261" y="-584.59821428571422"/>
         </scene>
-        <!--View Controller-->
+        <!--Fresh Item View Controller-->
         <scene sceneID="ucg-Mv-LWj">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="QWg-vE-lMB" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="QWg-vE-lMB" customClass="FreshItemViewController" customModule="Oli_Tec_Scanner" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KoV-GJ-u4R">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -526,11 +526,11 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="Af8-dm-0ia"/>
-        <segue reference="JR9-9m-CeB"/>
-        <segue reference="4z6-7Q-AlV"/>
-        <segue reference="pGw-X5-vs6"/>
-        <segue reference="ZA9-6G-gid"/>
-        <segue reference="4kK-dc-Oti"/>
+        <segue reference="Qhu-7e-40x"/>
+        <segue reference="uj7-3R-wqN"/>
+        <segue reference="X9N-B2-9AP"/>
+        <segue reference="IQA-79-f4H"/>
+        <segue reference="foh-61-RGx"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="oli-tec_logoSTRIPE" width="2621" height="860"/>

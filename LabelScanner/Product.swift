@@ -14,4 +14,18 @@ struct Product: Codable {
     var size: String!
     var numDaysLeft: Int!
     
+//    init(name: String!, size: String!, numDaysLeft: Int!) {
+//        self.name = name
+//        self.size = size
+//        self.numDaysLeft = numDaysLeft
+//    }
+    
+//    static func update(newProduct: Product){
+//
+//        self.init(name: newProduct.name, size: newProduct.size, numDaysLeft: newProduct.numDaysLeft)
+//
+//    }
+    
+    
 }
+

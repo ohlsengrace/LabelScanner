@@ -1,7 +1,31 @@
 {
-    "FreshSalsa": {
-            "name": "Mateo's Gourmet Salsa",
+    "products": [
+        {
+            "id": 1,
+            "name": "Mateo's Gourmet Salsa"
             "size": "Net Wt 32 oz. (907 g)",
             "numDaysLeft": 2
-        }
+        },
+        
+        {
+            "id": 2
+            "name": "Bananas"
+            "size": "4 per bunch"
+            "numDaysLeft": 1
+        },
+        
+        {
+            "id": 3
+            "name": "Hidden Valley Original Salad Dressing"
+            "size": "24 oz."
+            "numDaysLeft": 0
+        },
+        
+        {
+            "id": 4
+            "name": "Kroger Whole Milk"
+            "size": "1 gal"
+            "numDaysLeft": 0
+        },
+    ]
 }

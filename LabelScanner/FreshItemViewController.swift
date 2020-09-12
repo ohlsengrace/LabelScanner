@@ -13,9 +13,12 @@ class FreshItemViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        print(freshness)
+        
         // Do any additional setup after loading the view.
     }
     
+    var freshness: String = ""
 
     /*
     // MARK: - Navigation

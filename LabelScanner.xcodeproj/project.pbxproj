@@ -10,6 +10,7 @@
 		DB1D7D2624E47348001C32C5 /* RemoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1D7D2524E47348001C32C5 /* RemoveViewController.swift */; };
 		DB38A00424E62925008D0027 /* db.json in Resources */ = {isa = PBXBuildFile; fileRef = DB38A00324E62925008D0027 /* db.json */; };
 		DB38A00A24E63E4C008D0027 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB38A00924E63E4C008D0027 /* Product.swift */; };
+		DBA5AF72250C8310007DDD12 /* OrangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA5AF71250C8310007DDD12 /* OrangeViewController.swift */; };
 		DBBBC9E424C365F100DAC29B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBBC9E324C365F100DAC29B /* AppDelegate.swift */; };
 		DBBBC9E624C365F100DAC29B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBBC9E524C365F100DAC29B /* SceneDelegate.swift */; };
 		DBBBC9EB24C365F100DAC29B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBBBC9E924C365F100DAC29B /* Main.storyboard */; };
@@ -47,6 +48,8 @@
 		DB1D7D2524E47348001C32C5 /* RemoveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveViewController.swift; sourceTree = "<group>"; };
 		DB38A00324E62925008D0027 /* db.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = db.json; sourceTree = "<group>"; };
 		DB38A00924E63E4C008D0027 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		DBA5AF6D250C82E9007DDD12 /* LabelScanner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LabelScanner-Bridging-Header.h"; sourceTree = "<group>"; };
+		DBA5AF71250C8310007DDD12 /* OrangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeViewController.swift; sourceTree = "<group>"; };
 		DBBBC9E024C365F100DAC29B /* Oli-Tec Scanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Oli-Tec Scanner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBBBC9E324C365F100DAC29B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBBBC9E524C365F100DAC29B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -126,6 +129,7 @@
 				DBDF549424C66F9000CEFA06 /* GetViewController.swift */,
 				DB38A00924E63E4C008D0027 /* Product.swift */,
 				DBDF549624C6716B00CEFA06 /* FreshItemViewController.swift */,
+				DBA5AF71250C8310007DDD12 /* OrangeViewController.swift */,
 				DBDF549824C6745800CEFA06 /* SpoiledViewController.swift */,
 				DBBBC9E324C365F100DAC29B /* AppDelegate.swift */,
 				DBBBC9E524C365F100DAC29B /* SceneDelegate.swift */,
@@ -133,6 +137,7 @@
 				DBBBC9EC24C365F100DAC29B /* LabelScanner.xcdatamodeld */,
 				DBDF549224C5D87A00CEFA06 /* Color Palette.swift */,
 				DBBBC9EF24C365F800DAC29B /* Assets.xcassets */,
+				DBA5AF6D250C82E9007DDD12 /* LabelScanner-Bridging-Header.h */,
 			);
 			path = LabelScanner;
 			sourceTree = "<group>";
@@ -223,6 +228,7 @@
 				TargetAttributes = {
 					DBBBC9DF24C365F100DAC29B = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1170;
 					};
 					DBBBC9F824C365F800DAC29B = {
 						CreatedOnToolsVersion = 11.5;
@@ -295,6 +301,7 @@
 				DB38A00A24E63E4C008D0027 /* Product.swift in Sources */,
 				DBDF549524C66F9000CEFA06 /* GetViewController.swift in Sources */,
 				DBBBC9EE24C365F100DAC29B /* LabelScanner.xcdatamodeld in Sources */,
+				DBA5AF72250C8310007DDD12 /* OrangeViewController.swift in Sources */,
 				DBBBCA1724C366B400DAC29B /* ScannerViewController.swift in Sources */,
 				DBDF549724C6716B00CEFA06 /* FreshItemViewController.swift in Sources */,
 				DBBBCA1924C3687D00DAC29B /* MainViewController.swift in Sources */,
@@ -470,6 +477,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X5M35AL82A;
 				INFOPLIST_FILE = LabelScanner/Info.plist;
@@ -479,6 +487,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "KWK-Scholar.LabelScanner";
 				PRODUCT_NAME = "Oli-Tec Scanner";
+				SWIFT_OBJC_BRIDGING_HEADER = "LabelScanner/LabelScanner-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -488,6 +498,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X5M35AL82A;
 				INFOPLIST_FILE = LabelScanner/Info.plist;
@@ -497,6 +508,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "KWK-Scholar.LabelScanner";
 				PRODUCT_NAME = "Oli-Tec Scanner";
+				SWIFT_OBJC_BRIDGING_HEADER = "LabelScanner/LabelScanner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
